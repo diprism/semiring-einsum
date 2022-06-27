@@ -102,13 +102,8 @@ def max_argmax_block(a, dims):
     # argmaxes : m x [X1 x ... x Xn]
     # Remember to reverse the argmaxes, since we iterated in reverse.
     argmaxes.reverse()
-<<<<<<< HEAD
-    argmax = torch.stack(argmaxes, dim=-1) if len(argmaxes) > 0 else torch.empty(dim_max.size() + (0,))
-=======
     # `torch.stack` has been available since PyTorch 0.1.12.
-    # TODO This won't work when `dims` is empty.
-    argmax = torch.stack(argmaxes, dim=argmaxes[0].dim())
->>>>>>> upstream/master
+    argmax = torch.stack(argmaxes, dim=-1) if len(argmaxes) > 0 else torch.empty(dim_max.size() + (0,))
     # argmax : X1 x ... x Xn x m
     return dim_max, argmax
 
