@@ -2,10 +2,7 @@
 name = "torch_semiring_einsum"
 version = "1.0.0"
 description = "Extensible PyTorch implementation of einsum that supports multiple semirings"
-authors = ["Brian DuSell"]
 license = "MIT"
-repository = "https://github.com/bdusell/semiring-einsum"
-homepage = "https://bdusell.github.io/semiring-einsum/"
 
 [tool.poetry.dependencies]
 python = "^3.6"

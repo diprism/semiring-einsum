@@ -1,7 +1,5 @@
 # MIT License
 #
-# Copyright (c) 2019 Brian DuSell
-#
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
 # in the Software without restriction, including without limitation the rights
@@ -26,9 +24,6 @@
 #
 # A library of bash functions to facilitate using Docker containers as local
 # development environments.
-#
-# Repository: https://github.com/bdusell/dockerdev
-# Report bugs at: https://github.com/bdusell/dockerdev/issues
 #
 # This file defines functions for managing Docker containers that are meant
 # to serve as local development environments. Typically the source code of

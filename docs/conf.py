@@ -18,8 +18,6 @@ sys.path.insert(0, os.path.abspath('..'))
 # -- Project information -----------------------------------------------------
 
 project = 'Semiring Einsum'
-copyright = '2019, Brian DuSell'
-author = 'Brian DuSell'
 
 
 # -- General configuration ---------------------------------------------------

@@ -1,8 +1,6 @@
 Semiring Einsum (``torch_semiring_einsum``)
 ===========================================
 
-`View on GitHub <https://github.com/bdusell/semiring-einsum>`_
-
 This is a
 `PyTorch <https://pytorch.org/>`__
 re-implementation of
@@ -50,16 +48,6 @@ or a package manager like `Poetry <https://python-poetry.org/>`_:
 .. code-block:: sh
 
    poetry add torch-semiring-einsum
-
-You can also install it directly from GitHub:
-
-.. code-block:: sh
-
-   pip install git+git://github.com/bdusell/semiring-einsum.git
-
-.. code-block:: sh
-
-   poetry add git+https://github.com/bdusell/semiring-einsum@master
 
 Basic Usage
 -----------
